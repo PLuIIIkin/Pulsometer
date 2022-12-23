@@ -1,5 +1,14 @@
 @media (max-width: 1200px){}
-@media (max-width: 991px){}
+@media (max-width: 991px){
+    .carusel {
+        .prev {
+            display: none;
+        }
+        .next {
+            display: none;
+        }
+    }
+}
 @media (max-width: 768px) {
     .promo {
         .header {
@@ -77,6 +86,19 @@
         }
         &__icon {
             margin-bottom: 25px;
+        }
+    }
+    .carusel {
+        &__inner {
+            img {
+                width: 100%;
+            }
+        }
+        .prev {
+            display: none;
+        }
+        .next {
+            display: none;
         }
     }
 }
