@@ -18,6 +18,7 @@
 
 const slider = tns({
   container: '.carusel__inner',
+  speed: 1200,
   items: 1,
   slideBy: 'page',
   autoplay: false,
