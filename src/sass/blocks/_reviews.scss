@@ -1,0 +1,43 @@
+.reviews {
+  padding-bottom: 70px;
+  &__subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__icon {
+    top: 0;
+    margin-right: 62px;
+  }
+  hr {
+    width: 940px;
+    height: 2px;
+    background-color: #f6f6f6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  &__name {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &__number_marafon {
+    margin-top: 10px;
+    color: #646464;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  &__descr {
+    margin-top: 19px;
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
